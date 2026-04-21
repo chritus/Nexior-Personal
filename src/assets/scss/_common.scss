@@ -26,13 +26,13 @@ html.dark body {
 html,
 html.dark,
 :root {
-  --el-color-primary: #7c3aed;
-  --el-color-primary-light-3: #a78bfa;
-  --el-color-primary-light-5: #c4b5fd;
-  --el-color-primary-light-7: #ddd6fe;
-  --el-color-primary-light-8: #ede9fe;
-  --el-color-primary-light-9: #f5f3ff;
-  --el-color-primary-dark-2: #6d28d9;
+  --el-color-primary: #18181b;
+  --el-color-primary-light-3: #52525b;
+  --el-color-primary-light-5: #71717a;
+  --el-color-primary-light-7: #a1a1aa;
+  --el-color-primary-light-8: #d4d4d8;
+  --el-color-primary-light-9: #f4f4f5;
+  --el-color-primary-dark-2: #09090b;
   --el-border-radius-base: 12px;
   --el-border-radius-small: 8px;
   --el-border-radius-round: 9999px;
@@ -45,8 +45,8 @@ html.dark,
   --app-bg-surface: #ffffff;
   --app-bg-section: #f8fafc;
   --app-border-subtle: #e2e8f0;
-  --app-badge-bg: #ede9fe;
-  --app-badge-border: #7c3aed;
+  --app-badge-bg: #f4f4f5;
+  --app-badge-border: #18181b;
 
   /* Elevation / shadow system */
   --app-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
@@ -55,16 +55,16 @@ html.dark,
   --app-shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.06);
 
   /* Surface levels (wider contrast for depth) */
-  --app-nav-bg: #f1f5f9;
-  --app-sidebar-bg: #f8fafc;
+  --app-nav-bg: #f4f4f5;
+  --app-sidebar-bg: #fafafa;
   --app-content-bg: #ffffff;
 
   /* Gradients */
-  --app-gradient-brand: linear-gradient(135deg, #7c3aed 0%, #6366f1 50%, #818cf8 100%);
-  --app-gradient-brand-hover: linear-gradient(135deg, #6d28d9 0%, #4f46e5 50%, #6366f1 100%);
-  --app-gradient-hero: linear-gradient(135deg, #0b0d17 0%, #1a103a 50%, #0b0d17 100%);
-  --app-gradient-card: linear-gradient(135deg, rgba(124, 58, 237, 0.04), rgba(99, 102, 241, 0.02));
-  --app-gradient-subtle: linear-gradient(180deg, rgba(124, 58, 237, 0.03) 0%, transparent 100%);
+  --app-gradient-brand: linear-gradient(135deg, #18181b 0%, #27272a 50%, #3f3f46 100%);
+  --app-gradient-brand-hover: linear-gradient(135deg, #09090b 0%, #18181b 50%, #27272a 100%);
+  --app-gradient-hero: linear-gradient(135deg, #09090b 0%, #18181b 50%, #09090b 100%);
+  --app-gradient-card: linear-gradient(135deg, rgba(24, 24, 27, 0.04), rgba(39, 39, 42, 0.02));
+  --app-gradient-subtle: linear-gradient(180deg, rgba(24, 24, 27, 0.03) 0%, transparent 100%);
 
   /* Glass effect */
   --app-glass-bg: rgba(255, 255, 255, 0.7);
@@ -72,20 +72,20 @@ html.dark,
   --app-glass-blur: 12px;
 
   /* Glow */
-  --app-glow-primary: 0 0 20px rgba(124, 58, 237, 0.15);
-  --app-glow-primary-lg: 0 0 40px rgba(124, 58, 237, 0.25);
+  --app-glow-primary: 0 0 20px rgba(82, 82, 91, 0.15);
+  --app-glow-primary-lg: 0 0 40px rgba(82, 82, 91, 0.25);
 }
 
 html.dark {
-  --el-color-primary-light-9: #1e1635;
-  --el-bg-color: #0f1117;
-  --el-bg-color-page: #0b0d17;
-  --el-card-bg-color: rgba(26, 29, 46, 0.8);
-  --app-bg-surface: #111427;
-  --app-bg-section: #0f1117;
+  --el-color-primary-light-9: #18181b;
+  --el-bg-color: #09090b;
+  --el-bg-color-page: #000000;
+  --el-card-bg-color: rgba(9, 9, 11, 0.8);
+  --app-bg-surface: #0a0a0a;
+  --app-bg-section: #09090b;
   --app-border-subtle: rgba(255, 255, 255, 0.06);
-  --app-badge-bg: rgba(124, 58, 237, 0.15);
-  --app-badge-border: #7c3aed;
+  --app-badge-bg: rgba(244, 244, 245, 0.15);
+  --app-badge-border: #f4f4f5;
 
   /* Elevation / shadow system (dark) */
   --app-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.25);
@@ -94,21 +94,23 @@ html.dark {
   --app-shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.45), 0 4px 12px rgba(0, 0, 0, 0.3);
 
   /* Surface levels (dark) */
-  --app-nav-bg: #080a12;
-  --app-sidebar-bg: #0d0f1a;
-  --app-content-bg: #111427;
+  --app-nav-bg: #09090b;
+  --app-sidebar-bg: #0a0a0a;
+  --app-content-bg: #18181b;
 
   /* Gradients (dark) */
-  --app-gradient-card: linear-gradient(135deg, rgba(124, 58, 237, 0.06), rgba(99, 102, 241, 0.03));
-  --app-gradient-subtle: linear-gradient(180deg, rgba(124, 58, 237, 0.05) 0%, transparent 100%);
+  --app-gradient-brand: linear-gradient(135deg, #e4e4e7 0%, #f4f4f5 50%, #ffffff 100%);
+  --app-gradient-brand-hover: linear-gradient(135deg, #d4d4d8 0%, #e4e4e7 50%, #f4f4f5 100%);
+  --app-gradient-card: linear-gradient(135deg, rgba(82, 82, 91, 0.06), rgba(82, 82, 91, 0.03));
+  --app-gradient-subtle: linear-gradient(180deg, rgba(82, 82, 91, 0.05) 0%, transparent 100%);
 
   /* Glass effect (dark) */
-  --app-glass-bg: rgba(17, 20, 39, 0.7);
+  --app-glass-bg: rgba(9, 9, 11, 0.7);
   --app-glass-border: rgba(255, 255, 255, 0.06);
 
   /* Glow (dark - slightly stronger for visibility) */
-  --app-glow-primary: 0 0 20px rgba(124, 58, 237, 0.2);
-  --app-glow-primary-lg: 0 0 40px rgba(124, 58, 237, 0.3);
+  --app-glow-primary: 0 0 20px rgba(228, 228, 231, 0.2);
+  --app-glow-primary-lg: 0 0 40px rgba(228, 228, 231, 0.3);
 }
 
 w3m-modal {
@@ -157,13 +159,23 @@ w3m-modal {
 .el-button--primary {
   background: var(--app-gradient-brand);
   border: none;
+  color: #ffffff;
   &:hover,
   &:focus {
     background: var(--app-gradient-brand-hover);
     box-shadow: var(--app-glow-primary);
+    color: #ffffff;
   }
   &:active {
     box-shadow: var(--app-glow-primary-lg);
+  }
+}
+
+html.dark .el-button--primary {
+  color: #000000;
+  &:hover,
+  &:focus {
+    color: #000000;
   }
 }
 

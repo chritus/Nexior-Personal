@@ -1,6 +1,6 @@
 export const KLING_SERVICE_ID = '3369e077-2500-4263-86c7-cae0f0e7e843';
 
-export const KLING_LOGO = 'https://cdn.acedata.cloud/qpbbbb.jpg';
+export const KLING_LOGO = '/models/icon_3.jpeg';
 
 export const KLING_DEFAULT_MODEL = 'kling-v2-5-turbo';
 export const KLING_DEFAULT_DURATION = 5;

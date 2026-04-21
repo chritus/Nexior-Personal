@@ -1,5 +1,5 @@
 <template>
-  <img :src="user?.avatar || defaultAvatar" class="avatar" />
+  <img :src="user?.avatar || defaultAvatar" class="avatar" referrerpolicy="no-referrer" />
 </template>
 
 <script lang="ts">

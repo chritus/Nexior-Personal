@@ -5,16 +5,17 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          50: '#f5f3ff',
-          100: '#ede9fe',
-          200: '#ddd6fe',
-          300: '#c4b5fd',
-          400: '#a78bfa',
-          500: '#8b5cf6',
-          600: '#7c3aed',
-          700: '#6d28d9',
-          800: '#5b21b6',
-          900: '#4c1d95'
+          50: '#fafafa',
+          100: '#f5f5f5',
+          200: '#e5e5e5',
+          300: '#d4d4d4',
+          400: '#a3a3a3',
+          500: '#737373',
+          600: '#525252',
+          700: '#404040',
+          800: '#262626',
+          900: '#171717',
+          950: '#0a0a0a'
         },
         surface: {
           0: '#ffffff',
@@ -32,9 +33,9 @@ module.exports = {
         display: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif']
       },
       boxShadow: {
-        glow: '0 0 20px rgba(139, 92, 246, 0.15)',
-        'glow-lg': '0 0 40px rgba(139, 92, 246, 0.25)',
-        'glow-sm': '0 0 10px rgba(139, 92, 246, 0.1)',
+        glow: '0 0 20px rgba(82, 82, 91, 0.15)',
+        'glow-lg': '0 0 40px rgba(82, 82, 91, 0.25)',
+        'glow-sm': '0 0 10px rgba(82, 82, 91, 0.1)',
         card: '0 4px 24px rgba(0, 0, 0, 0.06)',
         'card-hover': '0 8px 32px rgba(0, 0, 0, 0.1)',
         'card-dark': '0 4px 24px rgba(0, 0, 0, 0.4)',
@@ -69,8 +70,8 @@ module.exports = {
           to: { backgroundPosition: '200% 0' }
         },
         pulseGlow: {
-          '0%, 100%': { boxShadow: '0 0 20px rgba(139, 92, 246, 0.15)' },
-          '50%': { boxShadow: '0 0 30px rgba(139, 92, 246, 0.3)' }
+          '0%, 100%': { boxShadow: '0 0 20px rgba(82, 82, 91, 0.15)' },
+          '50%': { boxShadow: '0 0 30px rgba(82, 82, 91, 0.3)' }
         }
       },
       backdropBlur: {

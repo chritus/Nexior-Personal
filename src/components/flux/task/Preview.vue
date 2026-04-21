@@ -1,7 +1,7 @@
 <template>
   <div class="preview">
     <div class="left">
-      <el-image src="https://cdn.acedata.cloud/ogm2oa.png" class="avatar" />
+      <el-image src="/models/icon_14.jpeg" class="avatar" />
     </div>
     <div class="main">
       <div class="bot">

@@ -53,7 +53,7 @@
           {{ $t('common.button.console') }}
         </div>
         <el-dropdown trigger="click">
-          <img :src="user?.avatar || defaultAvatar" class="avatar" />
+          <img :src="user?.avatar || defaultAvatar" class="avatar" referrerpolicy="no-referrer" />
           <template #dropdown>
             <el-dropdown-menu>
               <el-dropdown-item @click="onProfile">{{ $t('common.button.profile') }}</el-dropdown-item>

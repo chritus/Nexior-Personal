@@ -1,7 +1,7 @@
 <template>
   <div v-if="modelValue?.type === 'imagine'" class="item">
     <div class="left">
-      <el-image src="https://cdn.acedata.cloud/wto43b.png" class="avatar" />
+      <el-image src="/models/icon_7.jpeg" class="avatar" />
     </div>
     <div class="preview">
       <div class="bot">
@@ -111,7 +111,7 @@
   </div>
   <div v-if="modelValue?.type === 'videos'" class="item">
     <div class="left">
-      <el-image src="https://cdn.acedata.cloud/wto43b.png" class="avatar" />
+      <el-image src="/models/icon_8.jpeg" class="avatar" />
     </div>
     <div class="preview">
       <div class="bot">
@@ -219,7 +219,7 @@
   </div>
   <div v-if="modelValue?.type === 'describe'" class="item">
     <div class="left">
-      <el-image src="https://cdn.acedata.cloud/wto43b.png" class="avatar" />
+      <el-image src="/models/icon_9.jpeg" class="avatar" />
     </div>
     <div class="preview">
       <div class="bot">

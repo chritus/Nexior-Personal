@@ -2,16 +2,18 @@
   <div class="wrapper">
     <router-view class="main" />
     <navigator class="navigator" :direction="mobile ? 'row' : 'column'" />
-    <application-status
-      v-if="application"
-      class="fixed right-2 top-2 z-[200]"
-      :application="application"
-      :applications="applications"
-      :show-price="false"
-      :authenticated="!!$store.state.token.access"
-      :service="service"
-      @select="$store.dispatch(`${appName}/setApplication`, $event)"
-    />
+    <div class="fixed right-2 top-20 z-[200] flex flex-row gap-2">
+      <savings-status />
+      <application-status
+        v-if="application"
+        :application="application"
+        :applications="applications"
+        :show-price="false"
+        :authenticated="!!$store.state.token.access"
+        :service="service"
+        @select="$store.dispatch(`${appName}/setApplication`, $event)"
+      />
+    </div>
     <application-confirm v-model.visible="applying" @apply="onApply" />
   </div>
 </template>
@@ -20,6 +22,7 @@
 import { computed, defineComponent } from 'vue';
 import Navigator from '@/components/common/Navigator.vue';
 import ApplicationStatus from '@/components/application/Status.vue';
+import SavingsStatus from '@/components/application/Savings.vue';
 import { IApplicationScope, IApplicationType, Status } from '@/models';
 import { IAppState } from '@/store/common/models';
 import { ElMessage } from 'element-plus';
@@ -33,6 +36,7 @@ export default defineComponent({
   components: {
     Navigator,
     ApplicationStatus,
+    SavingsStatus,
     ApplicationConfirm
   },
   provide() {

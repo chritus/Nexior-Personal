@@ -4,7 +4,7 @@ export const MIDJOURNEY_MODE_NAME_TURBO = 'turbo';
 
 export const MIDJOURNEY_SERVICE_ID = 'd87e5e99-b797-4ade-9e73-b896896b0461';
 
-export const MIDJOURNEY_LOGO = 'https://cdn.acedata.cloud/wto43b.png';
+export const MIDJOURNEY_LOGO = '/models/icon_5.jpeg';
 
 export const MIDJOURNEY_DEFAULT_RATIO = '1:1';
 export const MIDJOURNEY_DEFAULT_IMAGE_WEIGHT = 1.0;

@@ -1,7 +1,7 @@
 <template>
   <div v-for="(video, videoIndex) in videos" :key="videoIndex" class="preview">
     <div class="left">
-      <el-image src="https://cdn.acedata.cloud/i80tgn.png" class="avatar" />
+      <el-image src="/models/icon_5.jpeg" class="avatar" />
     </div>
     <div class="main">
       <div class="bot">

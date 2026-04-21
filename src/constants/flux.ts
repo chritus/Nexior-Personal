@@ -1,6 +1,6 @@
 export const FLUX_SERVICE_ID = 'e8ebe055-429a-48e9-9d34-5089eae5fd89';
 
-export const FLUX_LOGO = 'https://cdn.acedata.cloud/ogm2oa.png';
+export const FLUX_LOGO = '/models/icon_1.jpeg';
 
 export const FLUX_DEFAULT_MODEL = 'flux-dev';
 export const FLUX_DEFAULT_ACTION = 'generate';

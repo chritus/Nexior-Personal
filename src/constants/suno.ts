@@ -1,6 +1,6 @@
 export const SUNO_SERVICE_ID = 'f2b646d8-3cfd-46ef-969a-1ea9eebde329';
 
-export const SUNO_LOGO = 'https://cdn.acedata.cloud/l3ffw7.jpg';
+export const SUNO_LOGO = '/models/icon_13.jpeg';
 
 export const SUNO_DEFAULT_QRW = 2;
 export const SUNO_DEFAULT_STEPS = 20;

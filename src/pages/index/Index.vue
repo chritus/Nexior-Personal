@@ -6,10 +6,10 @@
           <el-col :md="12" :xs="24" class="left">
             <div class="info">
               <h1 class="title">
-                {{ site?.title }}
+                The Ultimate AI Creator Studio
               </h1>
               <h3 class="subtitle">
-                {{ $t('index.subtitle.banner') }}
+                Deploy, experiment, and build with cutting-edge AI models including Midjourney, Luma, and more. Pay-per-use, no subscriptions.
               </h3>
               <div class="operations">
                 <el-button
@@ -33,6 +33,7 @@
         </el-row>
       </div>
     </div>
+
     <div id="introduction">
       <div class="container">
         <el-row class="mb-6">
@@ -68,8 +69,7 @@
       <div class="container">
         <el-row>
           <el-col :md="16" :xs="24" class="preview">
-            <img src="https://cdn.acedata.cloud/axynds.png" class="image desktop" />
-            <img src="https://cdn.acedata.cloud/vds4i3.png" class="image mobile" />
+            <img src="/campaign/chat.png" class="image desktop" />
           </el-col>
           <el-col :md="8" :xs="24" class="info">
             <h2 class="title">{{ $t('index.title.chat') }}</h2>
@@ -110,8 +110,7 @@
             </el-button>
           </el-col>
           <el-col :md="16" :xs="24" class="preview">
-            <img src="https://cdn.acedata.cloud/uk86mz.png" class="image desktop" />
-            <img src="https://cdn.acedata.cloud/rvelwm.png" class="image mobile" />
+            <img src="/campaign/art.png" class="image desktop" />
           </el-col>
         </el-row>
       </div>
@@ -120,8 +119,7 @@
       <div class="container">
         <el-row>
           <el-col :md="16" :xs="24" class="preview">
-            <img src="https://cdn.acedata.cloud/gyogar.png" class="image desktop" />
-            <img src="https://cdn.acedata.cloud/5kunm0.png" class="image mobile" />
+            <img src="/campaign/qr.png" class="image desktop" />
           </el-col>
           <el-col :md="8" :xs="24" class="info">
             <h2 class="title">{{ $t('index.title.qrart') }}</h2>
@@ -162,8 +160,7 @@
             </el-button>
           </el-col>
           <el-col :md="16" :xs="24" class="preview">
-            <img src="https://cdn.acedata.cloud/2m8fn.png" class="image desktop" />
-            <img src="https://cdn.acedata.cloud/23knvs.png" class="image mobile" />
+            <img src="/campaign/music.png" class="image desktop" />
           </el-col>
         </el-row>
       </div>
@@ -172,8 +169,7 @@
       <div class="container">
         <el-row>
           <el-col :md="16" :xs="24" class="preview">
-            <img src="https://cdn.acedata.cloud/6kop1g.png" class="image desktop" />
-            <img src="https://cdn.acedata.cloud/3kcjny.png" class="image mobile" />
+            <img src="/campaign/video.png" class="image desktop" />
           </el-col>
           <el-col :md="8" :xs="24" class="info">
             <h2 class="title">{{ $t('index.title.luma') }}</h2>
@@ -214,8 +210,7 @@
             </el-button>
           </el-col>
           <el-col :md="16" :xs="24" class="preview">
-            <img src="https://cdn.acedata.cloud/zlyshj.png" class="image desktop" />
-            <img src="https://cdn.acedata.cloud/8as0cx.png" class="image mobile" />
+            <img src="/campaign/portrait.png" class="image desktop" />
           </el-col>
         </el-row>
       </div>
@@ -481,7 +476,7 @@ export default defineComponent({
     content: '';
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(rgba(124, 58, 237, 0.15) 1px, transparent 1px);
+    background-image: radial-gradient(rgba(161, 161, 170, 0.15) 1px, transparent 1px);
     background-size: 32px 32px;
     opacity: 0.5;
     pointer-events: none;
@@ -503,7 +498,7 @@ export default defineComponent({
         text-align: left;
         letter-spacing: -0.03em;
         color: #ffffff;
-        background: linear-gradient(135deg, #ffffff 0%, #c4b5fd 50%, #a78bfa 100%);
+        background: linear-gradient(135deg, #ffffff 0%, #d4d4d8 50%, #a1a1aa 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -531,7 +526,7 @@ export default defineComponent({
 
           &:hover {
             transform: translateY(-2px);
-            box-shadow: 0 0 50px rgba(124, 58, 237, 0.4);
+            box-shadow: 0 0 50px rgba(161, 161, 170, 0.4);
           }
         }
       }

@@ -1,6 +1,6 @@
 export const NANOBANANA_SERVICE_ID = '44fa6ed2-1ad1-4c7e-a8bd-30002728c0d1';
 
-export const NANOBANANA_LOGO = 'https://cdn.acedata.cloud/859plc.jpg';
+export const NANOBANANA_LOGO = '/models/icon_6.jpeg';
 
 export const NANOBANANA_DEFAULT_ACTION: 'generate' | 'edit' = 'generate';
 

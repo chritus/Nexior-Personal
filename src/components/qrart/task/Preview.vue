@@ -2,7 +2,7 @@
   <div class="preview w-full h-fit text-left flex flex-row mb-[15px]">
     <div class="left">
       <el-image
-        src="https://cdn.acedata.cloud/bcml67.png"
+        src="/models/icon_1.jpeg"
         class="avatar bg-[var(--el-bg-color)] p-[2px] w-[50px] h-[50px] m-[10px] rounded-full"
       />
     </div>

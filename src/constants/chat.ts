@@ -29,13 +29,13 @@ export const CHAT_MODEL_NAME_KIMI_K2_THINKING_TURBO = 'kimi-k2-thinking-turbo';
 export const CHAT_MODEL_NAME_GLM_5_1 = 'glm-5.1';
 export const CHAT_MODEL_NAME_GLM_4_7 = 'glm-4.7';
 
-export const CHAT_MODEL_ICON_CHATGPT = 'https://cdn.acedata.cloud/7dljuv.png';
-export const CHAT_MODEL_ICON_GROK = 'https://cdn.acedata.cloud/p1ge98.png';
-export const CHAT_MODEL_ICON_DEEPSEEK = 'https://cdn.acedata.cloud/bc71ae.png';
-export const CHAT_MODEL_ICON_GEMINI = 'https://cdn.acedata.cloud/psfx0g.jpg';
-export const CHAT_MODEL_ICON_CLAUDE = 'https://cdn.acedata.cloud/8fnw4v.jpg';
-export const CHAT_MODEL_ICON_KIMI = 'https://cdn.acedata.cloud/57ebgy.png';
-export const CHAT_MODEL_ICON_GLM = 'https://cdn.acedata.cloud/jqi3nv.png';
+export const CHAT_MODEL_ICON_CHATGPT = '/models/icon_1.jpeg';
+export const CHAT_MODEL_ICON_GROK = '/models/icon_2.jpeg';
+export const CHAT_MODEL_ICON_DEEPSEEK = '/models/icon_3.jpeg';
+export const CHAT_MODEL_ICON_GEMINI = '/models/icon_4.jpeg';
+export const CHAT_MODEL_ICON_CLAUDE = '/models/icon_5.jpeg';
+export const CHAT_MODEL_ICON_KIMI = '/models/icon_6.jpeg';
+export const CHAT_MODEL_ICON_GLM = '/models/icon_7.jpeg';
 
 export const CHAT_SERVICE_ID = 'b1fbcc32-e218-4253-9dc3-4fe600a1bfb9';
 
