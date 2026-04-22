@@ -17,25 +17,25 @@
               <ul class="space-y-4">
                 <li class="flex justify-between items-center text-sm">
                   <span class="text-zinc-400 font-medium">ChatGPT Plus</span>
-                  <span class="font-bold text-zinc-100">$20/mo</span>
+                  <span class="font-bold text-zinc-100">$19.99/mo</span>
                 </li>
                 <li class="flex justify-between items-center text-sm">
                   <span class="text-zinc-400 font-medium">Suno Pro</span>
-                  <span class="font-bold text-zinc-100">$10/mo</span>
+                  <span class="font-bold text-zinc-100">$9.99/mo</span>
                 </li>
                 <li class="flex justify-between items-center text-sm">
                   <span class="text-zinc-400 font-medium">Midjourney Basic</span>
-                  <span class="font-bold text-zinc-100">$10/mo</span>
+                  <span class="font-bold text-zinc-100">$9.99/mo</span>
                 </li>
                 <li class="flex justify-between items-center text-sm">
                   <span class="text-zinc-400 font-medium">Video AI tools</span>
-                  <span class="font-bold text-zinc-100">$15/mo</span>
+                  <span class="font-bold text-zinc-100">$14.99/mo</span>
                 </li>
               </ul>
             </div>
             <div class="mt-8 pt-4 border-t border-zinc-800 flex justify-between items-end">
               <span class="text-xs text-zinc-500 uppercase font-bold">Per month</span>
-              <span class="text-2xl font-black text-zinc-100 tracking-tighter">$55/mo</span>
+              <span class="text-2xl font-black text-zinc-100 tracking-tighter">$54.96/mo</span>
             </div>
           </div>
 
@@ -47,15 +47,15 @@
               <ul class="space-y-4">
                 <li class="flex justify-between items-center text-sm">
                   <span class="text-zinc-600 font-medium font-sans">GPT-4o (actual usage)</span>
-                  <span class="font-bold text-zinc-900">~$0.20</span>
+                  <span class="font-bold text-zinc-900">~$0.18</span>
                 </li>
                 <li class="flex justify-between items-center text-sm">
                   <span class="text-zinc-600 font-medium">Suno song x2</span>
-                  <span class="font-bold text-zinc-900">~$0.30</span>
+                  <span class="font-bold text-zinc-900">~$0.28</span>
                 </li>
                 <li class="flex justify-between items-center text-sm">
                   <span class="text-zinc-600 font-medium">Image generation</span>
-                  <span class="font-bold text-zinc-900">~$0.10</span>
+                  <span class="font-bold text-zinc-900">~$0.12</span>
                 </li>
                 <li class="flex justify-between items-center text-sm">
                   <span class="text-zinc-600 font-medium">Nexior deployment</span>
@@ -68,7 +68,7 @@
             </div>
             <div class="mt-8 pt-4 border-t border-zinc-100 flex justify-between items-end">
               <span class="text-xs text-zinc-400 uppercase font-bold">Total spent</span>
-              <span class="text-2xl font-black text-zinc-900 tracking-tighter">~$0.60</span>
+              <span class="text-2xl font-black text-zinc-900 tracking-tighter">~$0.58</span>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@
           </div>
           <div class="text-center sm:text-right">
             <p class="text-3xl font-black text-zinc-900 dark:text-zinc-100 tracking-tighter">98.9% saved</p>
-            <p class="text-[11px] font-bold text-zinc-500 italic">$54.40 kept in pocket</p>
+            <p class="text-[11px] font-bold text-zinc-500 italic">$54.38 kept in pocket</p>
           </div>
         </div>
 
